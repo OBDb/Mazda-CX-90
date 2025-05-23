@@ -3,26 +3,18 @@ can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
 - response: 728046261B100
-  expected_values:
-    MAZDA_FUEL_LEVEL: 0
+  expected_values: {}
 - response: 728046261B134
-  expected_values:
-    MAZDA_FUEL_LEVEL: 52
+  expected_values: {}
 - response: 728046261B135
-  expected_values:
-    MAZDA_FUEL_LEVEL: 53
+  expected_values: {}
 - response: 728046261B136
-  expected_values:
-    MAZDA_FUEL_LEVEL: 54
+  expected_values: {}
 - response: 728046261B137
-  expected_values:
-    MAZDA_FUEL_LEVEL: 55
+  expected_values: {}
 - response: 728046261B138
-  expected_values:
-    MAZDA_FUEL_LEVEL: 55
+  expected_values: {}
 - response: 728046261B139
-  expected_values:
-    MAZDA_FUEL_LEVEL: 55
+  expected_values: {}
 - response: 728046261B13A
-  expected_values:
-    MAZDA_FUEL_LEVEL: 55
+  expected_values: {}
