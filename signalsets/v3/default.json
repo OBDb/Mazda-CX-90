@@ -1,7 +1,7 @@
 { "commands": [
 { "hdr": "720", "dbg": true, "cmd": {"22": "2A05"}, "freq": 1,
   "signals": [
-    {"id": "CX90_TP_FL", "path": "Tires", "fmt": { "len": 8, "max": 3.5, "mul": 1373, "div": 100000, "unit": "bars"}, "name": "Front Left pressure", "suggestedMetric": "frontLeftPressure"}
+    {"id": "CX90_TP_FL", "path": "Tires", "fmt": { "len": 8, "max": 3.5, "mul": 1373, "div": 100000, "unit": "bars" }, "name": "Front Left pressure", "suggestedMetric": "frontLeftPressure"}
   ]},
 { "hdr": "720", "dbg": true, "cmd": {"22": "2A06"}, "freq": 1,
   "signals": [
