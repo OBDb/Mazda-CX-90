@@ -1,35 +1,35 @@
 { "commands": [
-{ "hdr": "720", "dbg": true, "cmd": {"22": "2A05"}, "freq": 1,
+{ "hdr": "726", "dbg": true, "cmd": {"22": "D922"}, "freq": 1,
   "signals": [
-    {"id": "CX90_TP_FL", "path": "Tires", "fmt": { "len": 8, "max": 3.5, "mul": 1373, "div": 100000, "unit": "bars" }, "name": "Front Left pressure", "suggestedMetric": "frontLeftPressure"}
+    {"id": "CX90_TP_FL", "path": "Tires", "fmt": { "len": 8, "max": 255, "unit": "psi" }, "name": "Front left pressure", "suggestedMetric": "frontLeftTirePressure"}
   ]},
-{ "hdr": "720", "dbg": true, "cmd": {"22": "2A06"}, "freq": 1,
+{ "hdr": "726", "dbg": true, "cmd": {"22": "D923"}, "freq": 1,
   "signals": [
-    {"id": "CX90_TP_FR", "path": "Tires", "fmt": { "len": 8, "max": 3.5, "mul": 1373, "div": 100000, "unit": "bars" }, "name": "Front Right pressure", "suggestedMetric": "frontRightPressure"}
+    {"id": "CX90_TP_FR", "path": "Tires", "fmt": { "len": 8, "max": 255, "unit": "psi" }, "name": "Front right pressure", "suggestedMetric": "frontRightTirePressure"}
   ]},
-{ "hdr": "720", "dbg": true, "cmd": {"22": "2A07"}, "freq": 1,
+{ "hdr": "726", "dbg": true, "cmd": {"22": "D924"}, "freq": 1,
   "signals": [
-    {"id": "CX90_TP_RL", "path": "Tires", "fmt": { "len": 8, "max": 3.5, "mul": 1373, "div": 100000, "unit": "bars" }, "name": "Rear Left pressure", "suggestedMetric": "rearLeftPressure"}
+    {"id": "CX90_TP_RL", "path": "Tires", "fmt": { "len": 8, "max": 255, "unit": "psi" }, "name": "Rear left pressure", "suggestedMetric": "rearLeftTirePressure"}
   ]},
-{ "hdr": "720", "dbg": true, "cmd": {"22": "2A08"}, "freq": 1,
+{ "hdr": "726", "dbg": true, "cmd": {"22": "D925"}, "freq": 1,
   "signals": [
-    {"id": "CX90_TP_RR", "path": "Tires", "fmt": { "len": 8, "max": 3.5, "mul": 1373, "div": 100000, "unit": "bars" }, "name": "Rear Right pressure", "suggestedMetric": "rearRightPressure"}
+    {"id": "CX90_TP_RR", "path": "Tires", "fmt": { "len": 8, "max": 255, "unit": "psi" }, "name": "Rear right pressure", "suggestedMetric": "rearRightTirePressure"}
   ]},
-{ "hdr": "720", "dbg": true, "cmd": {"22": "2A0A"}, "freq": 15,
+{ "hdr": "726", "dbg": true, "cmd": {"22": "D926"}, "freq": 1,
   "signals": [
-    {"id": "CX90_TT_1", "path": "Tires", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "Wheel 1 temperature"}
+    {"id": "CX90_TT_FL", "path": "Tires", "fmt": { "len": 8, "max": 205, "add": -50, "unit": "celsius" }, "name": "Front left temperature"}
   ]},
-{ "hdr": "720", "dbg": true, "cmd": {"22": "2A0B"}, "freq": 15,
+{ "hdr": "726", "dbg": true, "cmd": {"22": "D927"}, "freq": 1,
   "signals": [
-    {"id": "CX90_TT_2", "path": "Tires", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "Wheel 2 temperature"}
+    {"id": "CX90_TT_FR", "path": "Tires", "fmt": { "len": 8, "max": 205, "add": -50, "unit": "celsius" }, "name": "Front right temperature"}
   ]},
-{ "hdr": "720", "dbg": true, "cmd": {"22": "2A0C"}, "freq": 15,
+{ "hdr": "726", "dbg": true, "cmd": {"22": "D928"}, "freq": 1,
   "signals": [
-    {"id": "CX90_TT_3", "path": "Tires", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "Wheel 3 temperature"}
+    {"id": "CX90_TT_RL", "path": "Tires", "fmt": { "len": 8, "max": 205, "add": -50, "unit": "celsius" }, "name": "Rear left temperature"}
   ]},
-{ "hdr": "720", "dbg": true, "cmd": {"22": "2A0D"}, "freq": 15,
+{ "hdr": "726", "dbg": true, "cmd": {"22": "D929"}, "freq": 1,
   "signals": [
-    {"id": "CX90_TT_4", "path": "Tires", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "Wheel 4 temperature"}
+    {"id": "CX90_TT_RR", "path": "Tires", "fmt": { "len": 8, "max": 205, "add": -50, "unit": "celsius" }, "name": "Rear right temperature"}
   ]}
 ]
 }
