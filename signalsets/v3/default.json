@@ -17,19 +17,19 @@
   ]},
 { "hdr": "726", "dbg": true, "cmd": {"22": "D926"}, "freq": 1,
   "signals": [
-    {"id": "CX90_TT_FL", "path": "Tires", "fmt": { "len": 8, "max": 205, "add": -50, "unit": "celsius" }, "name": "Front left temperature"}
+    {"id": "CX90_TT_FL", "path": "Tires", "fmt": { "len": 8, "min": -50, "max": 205, "add": -50, "unit": "celsius" }, "name": "Front left temperature"}
   ]},
 { "hdr": "726", "dbg": true, "cmd": {"22": "D927"}, "freq": 1,
   "signals": [
-    {"id": "CX90_TT_FR", "path": "Tires", "fmt": { "len": 8, "max": 205, "add": -50, "unit": "celsius" }, "name": "Front right temperature"}
+    {"id": "CX90_TT_FR", "path": "Tires", "fmt": { "len": 8, "min": -50, "max": 205, "add": -50, "unit": "celsius" }, "name": "Front right temperature"}
   ]},
 { "hdr": "726", "dbg": true, "cmd": {"22": "D928"}, "freq": 1,
   "signals": [
-    {"id": "CX90_TT_RL", "path": "Tires", "fmt": { "len": 8, "max": 205, "add": -50, "unit": "celsius" }, "name": "Rear left temperature"}
+    {"id": "CX90_TT_RL", "path": "Tires", "fmt": { "len": 8, "min": -50, "max": 205, "add": -50, "unit": "celsius" }, "name": "Rear left temperature"}
   ]},
 { "hdr": "726", "dbg": true, "cmd": {"22": "D929"}, "freq": 1,
   "signals": [
-    {"id": "CX90_TT_RR", "path": "Tires", "fmt": { "len": 8, "max": 205, "add": -50, "unit": "celsius" }, "name": "Rear right temperature"}
+    {"id": "CX90_TT_RR", "path": "Tires", "fmt": { "len": 8, "min": -50, "max": 205, "add": -50, "unit": "celsius" }, "name": "Rear right temperature"}
   ]}
 ]
 }
