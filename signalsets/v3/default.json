@@ -1,7 +1,7 @@
 { "commands": [
 { "hdr": "720", "dbg": true, "cmd": {"22": "61B1"}, "freq": 1,
   "signals": [
-    {"id": "CX90_FLV", "path": "Fuel", "fmt": { "len": 8, "max":255, "unit": "liters" }, "name": "Fuel level", "suggestedMetric": "fuelLevel"}
+    {"id": "CX90_FLV", "path": "Fuel", "fmt": { "len": 8, "max": 255, "unit": "liters" }, "name": "Fuel level"}
   ]},
 { "hdr": "726", "dbg": true, "cmd": {"22": "D922"}, "freq": 1,
   "signals": [
