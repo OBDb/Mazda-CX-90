@@ -3,9 +3,9 @@ test_cases:
 - response: '7E8056203070666'
   expected_values:
     CX90_FP_LD: 2.49943
-- response: 7E8056203074D02
+- response: 7E8056203074A00
   expected_values:
-    CX90_FP_LD: 30.08164
+    CX90_FP_LD: 28.90669
 - response: 7E8056203074FFF
   expected_values:
     CX90_FP_LD: 31.24895

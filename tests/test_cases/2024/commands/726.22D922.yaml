@@ -3,6 +3,6 @@ test_cases:
 - response: 72E0462D922AB
   expected_values:
     CX90_TP_FL: 34.2
-- response: 72E0462D922C1
+- response: 72E0462D922C4
   expected_values:
-    CX90_TP_FL: 38.6
+    CX90_TP_FL: 39.2

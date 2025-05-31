@@ -6,9 +6,9 @@ test_cases:
 - response: 7E80562131022FF
   expected_values:
     CX90_EOT: 49.59
-- response: '7E8056213103300'
+- response: '7E8056213102700'
   expected_values:
-    CX90_EOT: 90.56
-- response: '7E8056213103509'
+    CX90_EOT: 59.84
+- response: '7E8056213103705'
   expected_values:
-    CX90_EOT: 95.77
+    CX90_EOT: 100.85

@@ -3,6 +3,6 @@ test_cases:
 - response: 72E0462D92942
   expected_values:
     CX90_TT_RR: 16
-- response: 72E0462D92956
+- response: 72E0462D9295E
   expected_values:
-    CX90_TT_RR: 36
+    CX90_TT_RR: 44
