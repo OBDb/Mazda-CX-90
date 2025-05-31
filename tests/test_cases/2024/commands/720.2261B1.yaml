@@ -3,6 +3,6 @@ test_cases:
 - response: 728046261B100
   expected_values:
     CX90_FLV: 0
-- response: 728046261B13A
+- response: 728046261B164
   expected_values:
-    CX90_FLV: 58
+    CX90_FLV: 100
