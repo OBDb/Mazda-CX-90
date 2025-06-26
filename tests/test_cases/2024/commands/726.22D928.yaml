@@ -1,8 +1,8 @@
 command_id: 726.22D928
 test_cases:
-- response: 72E0462D92841
-  expected_values:
+- expected_values:
     CX90_TT_RL: 15
-- response: 72E0462D9285A
-  expected_values:
+  response: 72E0462D92841
+- expected_values:
     CX90_TT_RL: 40
+  response: 72E0462D9285A

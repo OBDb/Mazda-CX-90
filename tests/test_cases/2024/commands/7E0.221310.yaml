@@ -1,14 +1,14 @@
 command_id: 7E0.221310
 test_cases:
-- response: 7E80562131017A6
-  expected_values:
-    CX90_EOT: 20.54
-- response: 7E80562131022FF
-  expected_values:
-    CX90_EOT: 49.59
-- response: '7E8056213102700'
-  expected_values:
-    CX90_EOT: 59.84
-- response: '7E8056213103705'
-  expected_values:
+- expected_values:
+    CX90_EOT: 20.09
+  response: '7E8056213101779'
+- expected_values:
+    CX90_EOT: 21.44
+  response: '7E8056213101800'
+- expected_values:
+    CX90_EOT: 23.99
+  response: 7E80562131018FF
+- expected_values:
     CX90_EOT: 100.85
+  response: '7E8056213103705'

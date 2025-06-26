@@ -1,14 +1,14 @@
 command_id: 7E0.220307
 test_cases:
-- response: '7E8056203070666'
-  expected_values:
+- expected_values:
     CX90_FP_LD: 2.49943
-- response: 7E8056203074A00
-  expected_values:
+  response: '7E8056203070666'
+- expected_values:
     CX90_FP_LD: 28.90669
-- response: 7E8056203074FFF
-  expected_values:
+  response: 7E8056203074A00
+- expected_values:
     CX90_FP_LD: 31.24895
-- response: 7E805620307799A
-  expected_values:
+  response: 7E8056203074FFF
+- expected_values:
     CX90_FP_LD: 47.50134
+  response: 7E805620307799A
