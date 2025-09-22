@@ -1,0 +1,14 @@
+command_id: 7E0.221310
+test_cases:
+- expected_values:
+    CX90_EOT: 15.45
+  response: 7E80562131015A9
+- expected_values:
+    CX90_EOT: 21.44
+  response: '7E8056213101800'
+- expected_values:
+    CX90_EOT: 29.11
+  response: 7E8056213101AFF
+- expected_values:
+    CX90_EOT: 109.04
+  response: 7E8056213103A38
