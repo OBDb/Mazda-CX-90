@@ -1,0 +1,11 @@
+command_id: 726.22D922
+test_cases:
+- expected_values:
+    CX90_TP_FL: 34
+  response: 72E0462D922AA
+- expected_values:
+    CX90_TP_FL: 40.8
+  response: 72E0462D922CC
+- expected_values:
+    CX90_TP_FL: 0
+  response: 7EB0462D92200
