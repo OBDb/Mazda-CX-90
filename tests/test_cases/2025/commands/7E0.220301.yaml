@@ -11,4 +11,4 @@ test_cases:
   response: '7E8056203010700'
 - expected_values:
     CX90_MAP: 4
-  response: 7E805620301100E
+  response: 7E805620301100A
